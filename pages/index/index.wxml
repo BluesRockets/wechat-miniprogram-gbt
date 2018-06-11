@@ -1,0 +1,42 @@
+<swiper indicator-dots="true"
+  autoplay="true" interval="3000" duration="500">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view id='indexButton'>
+  <view id='iconfont'>
+    <image src='https://lg-beri6w3m-1256635068.cos.ap-shanghai.myqcloud.com/%E7%94%B5%E5%8F%B0.png' mode='aspectFit' bindtap='wanan'></image>
+    <image src='https://lg-beri6w3m-1256635068.cos.ap-shanghai.myqcloud.com/%E9%9F%B3%E4%B9%90.png' mode='aspectFit' bindtap='wujian'></image>
+    <image src='https://lg-beri6w3m-1256635068.cos.ap-shanghai.myqcloud.com/%E8%8A%82%E7%9B%AE.png' mode='aspectFit' bindtap='wanjian'></image>
+    <image src='https://lg-beri6w3m-1256635068.cos.ap-shanghai.myqcloud.com/%E5%85%B6%E4%BB%96.png' mode='aspectFit' ></image>
+    <view id='icontext'><text>晚安电台</text><text>午间音乐坊</text><text>晚间节目</text><text>留作备用</text></view>
+  </view>
+</view>
+<view class='theNew'>  
+    <view class='moduleHead'>
+    <image src='https://lg-beri6w3m-1256635068.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E6%96%B0%20(1).png'></image>
+    <text>最新节目</text>
+    </view>
+</view>
+<view class='br'></view>
+<view class='newBroadcast'>
+
+  <view class='oneBroadcast' wx:for="{{program}}" wx:for-item="itemName">
+    <view class='picture'>
+    <image src='{{itemName.image}}' mode='aspectFit'></image>
+    </view>
+    <view class='musicTitle'>
+    <text>{{itemName.title}}</text>
+    </view>
+    <view class='musicTime'>
+    <text>{{itemName.date}}</text>
+    </view>
+    <view class='musicButton' bindtap='musicSwitch' data-musicsrc="{{itemName.src}}" data-musictitle='{{itemName.title}}' data-musiccover='{{itemName.image}}'>
+    <image src='{{musicButton}}' mode='aspectFit'></image>
+    </view>
+  </view>
+
+</view>

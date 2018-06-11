@@ -1,0 +1,5 @@
+<view>
+<text class='head1'>注意事项</text>
+<view class='br'></view>
+  <button type='primary' bindtap='startCheck'>开始点歌</button>
+</view>

@@ -1,0 +1,107 @@
+page{
+  background-color:#eeeeee;
+}
+.br{
+  width: 100%;
+  height: 2rpx;
+  background-color: #eee;
+}
+swiper{
+ height: 400rpx;
+}
+#indexButton{
+  margin-top: 15rpx;
+  height: 145rpx;
+  background-color: white;
+}
+#iconfont{
+  margin-left:40rpx;
+  padding-top: 25rpx;
+}
+#iconfont image{
+  width: 60rpx;
+  height: 80rpx;
+  padding-left:90rpx;
+}
+#icontext{
+  font-size: 14px;
+  color:darkslategrey;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  margin-left:70rpx;
+  margin-top: -8rpx;
+}
+#icontext text{
+  padding-right:50rpx;
+}
+.theNew{
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+.theNew .moduleHead{
+  margin: 0rpx auto;
+  padding-top: 25rpx;
+  width: 250rpx;
+}
+.theNew .moduleHead image{
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.theNew .moduleHead text{
+  color:#104E8B;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: top;
+}
+.newBroadcast{
+  width: 100%;
+  height: 750rpx;
+  background-color: #fff;
+  padding-top: 20rpx;
+}
+.oneBroadcast{
+  width: 100%;
+  height: 160rpx;
+  margin: 0rpx auto;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.picture{
+  width: 20%;
+  height: 130rpx;
+  padding-top: 6rpx;
+  padding-left: 20rpx;
+
+}
+.picture image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.musicTitle{
+  position: absolute;
+  top: 40rpx;
+  left: 25%;
+  font-size: 20px;
+
+}
+.musicTime{
+  position: absolute;
+  top:120rpx;
+  left: 25%;
+  color: gray;
+  font-size: 15px;
+}
+.musicButton{
+  height: 75rpx;
+  width: 75rpx;
+  position: absolute;
+  top: 45rpx;
+  right: 40rpx;
+}
+.musicButton image{
+  width: 75rpx;
+  height: 75rpx;
+}

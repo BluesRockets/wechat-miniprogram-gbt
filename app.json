@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/play/play",
+    "pages/diange/diange",
+    "pages/my/my",
+    "pages/checkform/checkform"
+  ],
+  "window":{
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1874CD",
+    "navigationBarTitleText": "安徽科技学院广播台",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text":"首页"
+    },{
+      "pagePath":"pages/play/play",
+      "text":"正在播放"
+    },{
+      "pagePath": "pages/diange/diange",
+      "text": "点歌"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的"
+    }]
+  }
+}

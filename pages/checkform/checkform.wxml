@@ -1,0 +1,21 @@
+<form>
+  <view class="section__title">校区</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{xiaoqu}}">
+    <view class="picker blocked">
+      <view class='smalltext'>当前选择:</view>{{xiaoqu[index]}}
+    </view>
+  </picker>
+  <view class="section__title">播放日期</view>
+  <picker mode="date" value="{{date}}" start="{{startDate}}" end="{{endDate}}" bindchange="bindDateChange">
+    <view class="picker blocked">
+      <view class='smalltext'>当前选择:</view> {{date}}
+    </view>
+  </picker>
+  <view class="section__title">歌曲</view>
+  <input class='blocked'></input>
+  <view class="section__title">送给谁</view>
+  <input class='blocked'></input>
+  <view class="section__title">想说什么</view>
+  <input class='blocked'></input>
+  <button type='primary' form-type='submit'>提交</button>
+</form>
